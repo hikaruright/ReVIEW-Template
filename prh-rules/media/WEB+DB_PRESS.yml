@@ -226,11 +226,11 @@ rules:
     expected: 一種
   - pattern: いっしょ
     expected: 一緒
-  - pattern:
-      - ひととおり
-      - ひと通り
-      - 一とおり
-    expected: 一通り
+  # - pattern:
+  #     - ひととおり
+  #     - ひと通り
+  #     - 一とおり
+  #   expected: 一通り
   - pattern: 1度
     expected: 一度
   - pattern: 1部
@@ -763,8 +763,8 @@ rules:
     expected: もちろん
   - pattern: 勿体な
     expected: もったいな
-  - pattern: もっとも
-    expected: 最も
+  # - pattern: もっとも
+  #   expected: 最も
   - pattern: 尤も
     expected: もっとも
   - pattern: /貰([わいうえおっ])/
@@ -958,14 +958,14 @@ rules:
       - 言訳
       - 言いわけ
     expected: 言い訳
-  - pattern: いえない
-    expected: 言えない
-  - pattern: いえなく
-    expected: 言えなく
-  - pattern: いえる
-    expected: 言える
-  - pattern: いわれる
-    expected: 言われる
+  # - pattern: いえない
+  #   expected: 言えない
+  # - pattern: いえなく
+  #   expected: 言えなく
+  # - pattern: いえる
+  #   expected: 言える
+  # - pattern: いわれる
+  #   expected: 言われる
   - pattern:
       - 未だ
       - 今だ
@@ -1067,14 +1067,14 @@ rules:
     expected: はじめとする
   - pattern: 始めとした
     expected: はじめとした
-  - pattern: はじめて
-    expected: 初めて
+  # - pattern: はじめて
+  #   expected: 初めて
   - pattern: はじめた
     expected: 始めた
   - pattern: はじま
     expected: 始ま
-  - pattern: はじめ
-    expected: 始め
+  - pattern: 始め
+    expected: はじめ
   - pattern: かたまり
     expected: 塊
   - pattern: やりかた

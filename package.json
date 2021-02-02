@@ -29,7 +29,17 @@
     "web": "grunt web",
     "test": "npm run html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "textlint": "^11.8.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-filter-rule-whitelist": "^2.0.0",
+    "textlint-rule-max-ten": "^2.0.4",
+    "textlint-rule-no-mix-dearu-desumasu": "^4.0.1",
+    "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
+    "textlint-rule-preset-japanese": "^5.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.6",
+    "textlint-rule-prh": "^5.3.0"
+  },
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-cli": "^1.2.0",

@@ -10,3 +10,4 @@ FROM vvakame/review:5.0
 
 # ENV PATH="/usr/local/redpen/bin:${PATH}"
 
+COPY vscode-textlint-0.8.0.vsix /tmp/vscode-textlint.vsix

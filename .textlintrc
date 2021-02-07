@@ -49,5 +49,8 @@
                 "prh-rules/terms/trademark.yml"
             ]
         }
-    }
+    },
+    "plugins": [
+        "review"
+    ]
 }

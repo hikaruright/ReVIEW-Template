@@ -19,11 +19,12 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-azuretools.vscode-docker",
-		// "takeo-asai.redpen-extension",
 		"atsushieno.language-review",
 		"analytic-signal.preview-pdf",
-		"vvakame.vscode-prh-extention",
-		"taichi.vscode-textlint"
+		// "vvakame.vscode-prh-extention",
+		// "taichi.vscode-textlint",
+		"erukiti.ya-language-review",
+		"/tmp/vscode-textlint.vsix"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

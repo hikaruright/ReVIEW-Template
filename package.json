@@ -27,7 +27,8 @@
     "text": "grunt text",
     "epub": "grunt epub",
     "web": "grunt web",
-    "test": "npm run html"
+    "test": "npm run html",
+    "lint": "textlint articles/*.re"
   },
   "dependencies": {
     "textlint": "^11.8.1",
@@ -38,7 +39,8 @@
     "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
     "textlint-rule-preset-japanese": "^5.0.0",
     "textlint-rule-preset-jtf-style": "^2.3.6",
-    "textlint-rule-prh": "^5.3.0"
+    "textlint-rule-prh": "^5.3.0",
+    "textlint-plugin-review": "^0.4.1"
   },
   "devDependencies": {
     "grunt": "^1.1.0",

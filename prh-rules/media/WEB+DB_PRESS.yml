@@ -226,11 +226,11 @@ rules:
     expected: 一種
   - pattern: いっしょ
     expected: 一緒
-  # - pattern:
-  #     - ひととおり
-  #     - ひと通り
-  #     - 一とおり
-  #   expected: 一通り
+  - pattern:
+      - ひととおり
+      - ひと通り
+      - 一とおり
+    expected: 一通り
   - pattern: 1度
     expected: 一度
   - pattern: 1部
@@ -763,8 +763,8 @@ rules:
     expected: もちろん
   - pattern: 勿体な
     expected: もったいな
-  # - pattern: もっとも
-  #   expected: 最も
+  - pattern: もっとも
+    expected: 最も
   - pattern: 尤も
     expected: もっとも
   - pattern: /貰([わいうえおっ])/
@@ -958,14 +958,14 @@ rules:
       - 言訳
       - 言いわけ
     expected: 言い訳
-  # - pattern: いえない
-  #   expected: 言えない
-  # - pattern: いえなく
-  #   expected: 言えなく
-  # - pattern: いえる
-  #   expected: 言える
-  # - pattern: いわれる
-  #   expected: 言われる
+  - pattern: いえない
+    expected: 言えない
+  - pattern: いえなく
+    expected: 言えなく
+  - pattern: いえる
+    expected: 言える
+  - pattern: いわれる
+    expected: 言われる
   - pattern:
       - 未だ
       - 今だ
@@ -1949,8 +1949,8 @@ rules:
     pattern:  /既定|ディフォルト|デフォールト/
   - expected: デプロイ
     pattern:  /デプロイメント/
-  - expected: デリバリ
-    pattern:  /デリバリー/
+  # - expected: デリバリ
+  #   pattern:  /デリバリー/
   - expected: ドキュメント
     pattern:  /ドキュメンテーション/
   - expected: ドコモ
